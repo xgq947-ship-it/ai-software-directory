@@ -90,3 +90,19 @@ vendors:
   - id: clash-verge-rev
     name: Clash Verge Rev
     homepage: https://www.clashverge.dev/
+
+  - id: netease-uuyc
+    name: 网易 UU 远程
+    homepage: https://uuyc.163.com/
+
+  - id: snipaste
+    name: Snipaste
+    homepage: https://www.snipaste.com/
+
+  - id: manaflow
+    name: Manaflow
+    homepage: https://manaflow.com/
+
+  - id: cc-switch
+    name: CC Switch
+    homepage: https://ccswitch.io/zh/

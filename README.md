@@ -19,6 +19,10 @@
 | Zed | AI IDE | https://zed.dev/download | 高性能代码编辑器，支持 AI Agent |
 | Ollama | 本地模型运行 | https://ollama.com/download | 本地运行大模型 |
 | LM Studio | 本地模型运行 | https://lmstudio.ai/download | 图形化本地模型工具 |
+| UU 远程 | 远程控制 | https://uuyc.163.com/download/ | 网易官方远程控制工具 |
+| Snipaste | 截图贴图工具 | https://www.snipaste.com/download.html | 官方下载页，覆盖 Windows/macOS/Linux |
+| cmux | 开发终端 | https://cmux.com/ | 面向 AI Coding Agent 的 macOS 终端 |
+| CC Switch | AI CLI 管理 | https://ccswitch.io/zh/ | Claude Code、Codex、OpenCode 等 CLI 统一管理 |
 | Clash Verge Rev | 网络基础工具 | https://github.com/clash-verge-rev/clash-verge-rev/releases | 只用官方 GitHub Release |
 
 ## 模型权重入口
@@ -46,6 +50,7 @@ ai-software-directory/
 ├── docs/
 │   ├── ai-coding.md
 │   ├── desktop-chat.md
+│   ├── developer-workstation.md
 │   ├── local-llm-runtime.md
 │   ├── model-weights.md
 │   ├── network-tools.md
