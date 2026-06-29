@@ -15,6 +15,10 @@ categories:
     name: AI Agent Runtime
     description: 面向长期任务、工具调用、记忆、自动化和多渠道接入的 Agent 系统。
 
+  - id: android-automation
+    name: Android 自动化
+    description: 用于 Android 无障碍自动化、脚本运行、自动点击、任务执行和 APK 安装的工具。
+
   - id: ai-cli-manager
     name: AI CLI 管理工具
     description: 用于统一管理 AI 编程 CLI、模型供应商配置、本地路由、MCP、Skills 和用量统计的工具。
@@ -26,10 +30,6 @@ categories:
   - id: local-llm-runtime
     name: 本地模型运行工具
     description: 用于在本机下载、管理、运行本地大模型的软件。
-
-  - id: open-model-weights
-    name: 开源 / 开放权重模型
-    description: 官方公开模型权重、模型仓库或模型下载页。
 
   - id: proxy-network
     name: 网络基础工具

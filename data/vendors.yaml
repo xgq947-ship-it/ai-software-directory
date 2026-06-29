@@ -11,29 +11,9 @@ vendors:
     name: Google
     homepage: https://ai.google/
 
-  - id: meta
-    name: Meta
-    homepage: https://ai.meta.com/
-
-  - id: deepseek
-    name: DeepSeek
-    homepage: https://www.deepseek.com/
-
-  - id: qwen
-    name: Qwen
-    homepage: https://qwen.ai/
-
-  - id: mistral
-    name: Mistral AI
-    homepage: https://mistral.ai/
-
   - id: nousresearch
     name: Nous Research
     homepage: https://nousresearch.com/
-
-  - id: xai
-    name: xAI
-    homepage: https://x.ai/
 
   - id: cursor
     name: Cursor
@@ -106,3 +86,11 @@ vendors:
   - id: cc-switch
     name: CC Switch
     homepage: https://ccswitch.io/zh/
+
+  - id: hamibot
+    name: Hamibot
+    homepage: https://hamibot.com/
+
+  - id: autox-community
+    name: AutoX Community
+    homepage: https://github.com/autox-community/AutoX

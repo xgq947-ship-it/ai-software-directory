@@ -1,6 +1,6 @@
 # AI Software Directory
 
-这是一个用于整理 AI 相关软件、模型权重、开发工具和必要基础工具下载入口的资料库。
+这是一个用于整理 AI 相关软件、开发工具、远程控制、截图贴图和必要基础工具下载入口的资料库。
 
 原则很简单：只收官方入口，不上传安装包，不收第三方网盘，不写容易失效的安装包直链。
 
@@ -21,22 +21,11 @@
 | LM Studio | 本地模型运行 | https://lmstudio.ai/download | 图形化本地模型工具 |
 | UU 远程 | 远程控制 | https://uuyc.163.com/download/ | 网易官方远程控制工具 |
 | Snipaste | 截图贴图工具 | https://www.snipaste.com/download.html | 官方下载页，覆盖 Windows/macOS/Linux |
+| Hamibot | Android 自动化 | https://hamibot.com/download/ | 官方 APK 下载页 |
+| AutoX.js | Android 自动化 | https://github.com/autox-community/AutoX/releases | APK 从 GitHub Release 下载 |
 | cmux | 开发终端 | https://cmux.com/ | 面向 AI Coding Agent 的 macOS 终端 |
 | CC Switch | AI CLI 管理 | https://ccswitch.io/zh/ | Claude Code、Codex、OpenCode 等 CLI 统一管理 |
 | Clash Verge Rev | 网络基础工具 | https://github.com/clash-verge-rev/clash-verge-rev/releases | 只用官方 GitHub Release |
-
-## 模型权重入口
-
-| 模型 / 系列 | 官方入口 | 备注 |
-| --- | --- | --- |
-| OpenAI gpt-oss | https://huggingface.co/openai/gpt-oss-120b | OpenAI 开源权重模型 |
-| Meta Llama | https://developer.meta.com/ai/llama-downloads/ | Meta 官方下载页 |
-| DeepSeek | https://huggingface.co/deepseek-ai | DeepSeek 官方 Hugging Face 组织 |
-| Qwen | https://huggingface.co/Qwen | Qwen 官方 Hugging Face 组织 |
-| Gemma | https://www.kaggle.com/models/google/gemma | Google 官方 Kaggle 模型页 |
-| Mistral | https://huggingface.co/mistralai | Mistral AI 官方 Hugging Face 组织 |
-| Nous Hermes | https://huggingface.co/NousResearch/Hermes-4.3-36B | Nous Research Hermes 模型 |
-| xAI Grok | https://huggingface.co/xai-org/grok-2 | xAI 官方 Hugging Face 权重页 |
 
 ## 目录结构
 
@@ -49,10 +38,10 @@ ai-software-directory/
 │   └── vendors.yaml
 ├── docs/
 │   ├── ai-coding.md
+│   ├── android-automation.md
 │   ├── desktop-chat.md
 │   ├── developer-workstation.md
 │   ├── local-llm-runtime.md
-│   ├── model-weights.md
 │   ├── network-tools.md
 │   └── maintenance.md
 ├── templates/
@@ -66,7 +55,7 @@ ai-software-directory/
 
 - 优先记录下载页、安装文档、GitHub Release，不记录临时直链。
 - 每条记录必须有 `last_checked`。
-- 闭源模型不写“模型下载”，只写官方客户端、API 或安装入口。
+- 只收普通用户可安装的软件客户端、APK、插件、CLI 或官方安装入口。
 - 安装包只从官方域名、官方 GitHub、官方应用商店下载。
 - 代理、网络类工具只作为开发基础设施收录，不收订阅、不收节点。
 

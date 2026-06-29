@@ -50,7 +50,7 @@ software:
       - desktop
       - anthropic
     last_checked: 2026-06-29
-    notes: Claude 模型权重不公开下载，这里只记录官方客户端入口。
+    notes: 这里只记录官方客户端入口。
 
   - id: gemini-desktop
     name: Gemini for macOS
@@ -403,7 +403,7 @@ software:
       - runtime
       - model-manager
     last_checked: 2026-06-29
-    notes: 本地运行 Llama、Qwen、Gemma、DeepSeek 等模型的常用入口。
+    notes: 本地运行和管理常见大模型的常用入口。
 
   - id: lm-studio
     name: LM Studio
@@ -468,168 +468,6 @@ software:
       - desktop
     last_checked: 2026-06-29
     notes: 桌面版适合本地 RAG、文档问答和轻量 Agent。
-
-  - id: openai-gpt-oss
-    name: OpenAI gpt-oss
-    category: open-model-weights
-    vendor: openai
-    status: active
-    homepage: https://github.com/openai/gpt-oss
-    download_page: https://huggingface.co/openai/gpt-oss-120b
-    official_source: https://github.com/openai/gpt-oss
-    platforms:
-      - Hugging Face
-      - Local inference
-    pricing: open-weights
-    source_type: official
-    tags:
-      - model-weights
-      - openai
-      - reasoning
-    last_checked: 2026-06-29
-    notes: OpenAI 官方开放权重模型；下载命令以 GitHub/Hugging Face 模型卡为准。
-
-  - id: meta-llama
-    name: Meta Llama
-    category: open-model-weights
-    vendor: meta
-    status: active
-    homepage: https://www.llama.com/
-    download_page: https://developer.meta.com/ai/llama-downloads/
-    official_source: https://huggingface.co/meta-llama
-    platforms:
-      - Meta
-      - Hugging Face
-    pricing: license-gated
-    source_type: official
-    tags:
-      - model-weights
-      - llama
-      - meta
-    last_checked: 2026-06-29
-    notes: 部分权重需要接受 Meta 许可证条款。
-
-  - id: deepseek
-    name: DeepSeek Models
-    category: open-model-weights
-    vendor: deepseek
-    status: active
-    homepage: https://www.deepseek.com/
-    download_page: https://huggingface.co/deepseek-ai
-    official_source: https://huggingface.co/deepseek-ai/DeepSeek-R1
-    platforms:
-      - Hugging Face
-      - GitHub
-    pricing: open-weights
-    source_type: official
-    tags:
-      - model-weights
-      - reasoning
-      - deepseek
-    last_checked: 2026-06-29
-    notes: DeepSeek-R1、V3 等模型入口以官方 Hugging Face 组织为准。
-
-  - id: qwen
-    name: Qwen Models
-    category: open-model-weights
-    vendor: qwen
-    status: active
-    homepage: https://qwen.ai/
-    download_page: https://huggingface.co/Qwen
-    official_source: https://github.com/QwenLM/Qwen3.6
-    mirrors:
-      - https://www.modelscope.cn/organization/qwen
-    platforms:
-      - Hugging Face
-      - ModelScope
-      - GitHub
-    pricing: open-weights
-    source_type: official
-    tags:
-      - model-weights
-      - qwen
-      - alibaba
-    last_checked: 2026-06-29
-    notes: 国内网络环境可优先看 ModelScope；海外环境优先 Hugging Face。
-
-  - id: google-gemma
-    name: Google Gemma
-    category: open-model-weights
-    vendor: google
-    status: active
-    homepage: https://ai.google.dev/gemma
-    download_page: https://www.kaggle.com/models/google/gemma
-    official_source: https://huggingface.co/google
-    platforms:
-      - Kaggle
-      - Hugging Face
-    pricing: open-weights
-    source_type: official
-    tags:
-      - model-weights
-      - gemma
-      - google
-    last_checked: 2026-06-29
-    notes: Google 官方模型页在 Kaggle 和 Hugging Face 均有分发。
-
-  - id: mistral-models
-    name: Mistral Models
-    category: open-model-weights
-    vendor: mistral
-    status: active
-    homepage: https://mistral.ai/
-    download_page: https://huggingface.co/mistralai
-    official_source: https://docs.mistral.ai/models/overview
-    platforms:
-      - Hugging Face
-      - Mistral Docs
-    pricing: mixed
-    source_type: official
-    tags:
-      - model-weights
-      - mistral
-      - open-weights
-    last_checked: 2026-06-29
-    notes: 不同模型授权不同，下载前看具体模型卡。
-
-  - id: nous-hermes-models
-    name: Nous Hermes Models
-    category: open-model-weights
-    vendor: nousresearch
-    status: active
-    homepage: https://nousresearch.com/
-    download_page: https://huggingface.co/NousResearch/Hermes-4.3-36B
-    official_source: https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B
-    platforms:
-      - Hugging Face
-    pricing: open-weights
-    source_type: official
-    tags:
-      - model-weights
-      - hermes
-      - nous-research
-    last_checked: 2026-06-29
-    notes: 这里收录的是 Hermes 模型权重；Hermes Agent 另有单独条目。
-
-  - id: xai-grok
-    name: xAI Grok Open Weights
-    category: open-model-weights
-    vendor: xai
-    status: active
-    homepage: https://x.ai/
-    download_page: https://huggingface.co/xai-org/grok-2
-    official_source: https://github.com/xai-org/grok-1
-    platforms:
-      - Hugging Face
-      - GitHub
-    pricing: open-weights
-    source_type: official
-    tags:
-      - model-weights
-      - grok
-      - xai
-    last_checked: 2026-06-29
-    notes: 权重体积大，下载前先确认存储和推理环境。
 
   - id: clash-verge-rev
     name: Clash Verge Rev
@@ -761,3 +599,55 @@ software:
       - usage-stats
     last_checked: 2026-06-29
     notes: 用户输入的 ccwitch 按 CC Switch / cc-switch 收录；官网说明其用于统一管理 Claude Code、Codex、Gemini CLI、OpenCode、OpenClaw 和 Hermes Agent。
+
+  - id: hamibot
+    name: Hamibot
+    category: android-automation
+    vendor: hamibot
+    status: active
+    homepage: https://hamibot.com/
+    download_page: https://hamibot.com/download/
+    official_source: https://hamibot.com/download/
+    install:
+      android_apk_latest: https://dl.hamibot.com/Hamibot.apk
+      android_apk_beta: https://dl.hamibot.com/Hamibot_1.7.1-beta.apk
+    platforms:
+      - Android
+      - APK
+    pricing: freemium
+    source_type: official
+    tags:
+      - android
+      - apk
+      - automation
+      - accessibility
+      - scripting
+      - auto-click
+    last_checked: 2026-06-29
+    notes: 官网页面声明 Hamibot 是安卓自动化工具；稳定版 APK 官方直链当前返回 Hamibot_1.6.7.apk。
+
+  - id: autox-js
+    name: AutoX.js
+    category: android-automation
+    vendor: autox-community
+    status: active
+    homepage: https://github.com/autox-community/AutoX
+    download_page: https://github.com/autox-community/AutoX/releases
+    official_source: https://github.com/autox-community/AutoX/releases
+    install:
+      android_universal_apk_observed: https://github.com/autox-community/AutoX/releases/download/v6.6.8/Autox-v6-universal-release-v6.6.8.apk
+      android_release_page: https://github.com/autox-community/AutoX/releases/latest
+    platforms:
+      - Android
+      - APK
+    pricing: open-source
+    source_type: official
+    tags:
+      - android
+      - apk
+      - automation
+      - accessibility
+      - javascript
+      - autojs
+    last_checked: 2026-06-29
+    notes: 普通用户优先打开 Release 页下载 universal APK；固定版本直链仅为本次核验到的最新可用包。
