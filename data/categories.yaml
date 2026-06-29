@@ -31,6 +31,10 @@ categories:
     name: 本地模型运行工具
     description: 用于在本机下载、管理、运行本地大模型的软件。
 
+  - id: macos-utility
+    name: macOS 实用工具
+    description: 面向普通用户的 macOS 菜单栏、系统增强、窗口管理、剪贴板、卸载、清理和效率工具。
+
   - id: proxy-network
     name: 网络基础工具
     description: 用于开发环境网络访问、代理管理和跨平台网络配置的工具。

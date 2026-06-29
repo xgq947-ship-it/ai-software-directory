@@ -94,3 +94,7 @@ vendors:
   - id: autox-community
     name: AutoX Community
     homepage: https://github.com/autox-community/AutoX
+
+  - id: vorssaint
+    name: Vorssaint
+    homepage: https://vorssaint.com/

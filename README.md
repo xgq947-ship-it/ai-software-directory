@@ -21,6 +21,7 @@
 | LM Studio | 本地模型运行 | https://lmstudio.ai/download | 图形化本地模型工具 |
 | UU 远程 | 远程控制 | https://uuyc.163.com/download/ | 网易官方远程控制工具 |
 | Snipaste | 截图贴图工具 | https://www.snipaste.com/download.html | 官方下载页，覆盖 Windows/macOS/Linux |
+| Vorssaint | macOS 实用工具 | https://github.com/vorssaint/vorssaint-utils/releases | 菜单栏工具箱，支持 Homebrew Cask 安装 |
 | Hamibot | Android 自动化 | https://hamibot.com/download/ | 官方 APK 下载页 |
 | AutoX.js | Android 自动化 | https://github.com/autox-community/AutoX/releases | APK 从 GitHub Release 下载 |
 | cmux | 开发终端 | https://cmux.com/ | 面向 AI Coding Agent 的 macOS 终端 |
@@ -42,6 +43,7 @@ ai-software-directory/
 │   ├── desktop-chat.md
 │   ├── developer-workstation.md
 │   ├── local-llm-runtime.md
+│   ├── macos-utilities.md
 │   ├── network-tools.md
 │   └── maintenance.md
 ├── templates/

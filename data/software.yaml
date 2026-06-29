@@ -651,3 +651,35 @@ software:
       - autojs
     last_checked: 2026-06-29
     notes: 普通用户优先打开 Release 页下载 universal APK；固定版本直链仅为本次核验到的最新可用包。
+
+  - id: vorssaint
+    name: Vorssaint
+    category: macos-utility
+    vendor: vorssaint
+    status: active
+    homepage: https://vorssaint.com/
+    download_page: https://github.com/vorssaint/vorssaint-utils/releases
+    official_source: https://github.com/vorssaint/vorssaint-utils
+    install:
+      homebrew_cask: brew install --cask vorssaint/tap/vorssaint
+      dmg_latest_observed: https://github.com/vorssaint/vorssaint-utils/releases/download/v3.1.4/Vorssaint-3.1.4.dmg
+      release_page_latest: https://github.com/vorssaint/vorssaint-utils/releases/latest
+    platforms:
+      - macOS
+      - Apple Silicon
+    requirements:
+      - macOS 14+
+      - arm64
+    pricing: open-source
+    source_type: official
+    tags:
+      - macos
+      - menubar
+      - system-monitor
+      - volume-mixer
+      - clipboard
+      - window-manager
+      - uninstaller
+      - keep-awake
+    last_checked: 2026-06-29
+    notes: 官方 README 推荐 Homebrew Cask；最新 Release 同时提供 DMG。要求 Apple Silicon 和 macOS 14+。
