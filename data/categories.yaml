@@ -1,0 +1,28 @@
+categories:
+  - id: ai-chat-desktop
+    name: AI 客户端
+    description: 面向日常对话、搜索、写作和通用任务的官方桌面或移动客户端。
+
+  - id: ai-coding-agent
+    name: AI 编程 Agent
+    description: 能读取项目、编辑代码、运行命令或辅助开发流程的 CLI、IDE 插件和 Agent。
+
+  - id: ai-code-editor
+    name: AI 代码编辑器
+    description: 集成 AI 能力的编辑器或 IDE。
+
+  - id: ai-agent-runtime
+    name: AI Agent Runtime
+    description: 面向长期任务、工具调用、记忆、自动化和多渠道接入的 Agent 系统。
+
+  - id: local-llm-runtime
+    name: 本地模型运行工具
+    description: 用于在本机下载、管理、运行本地大模型的软件。
+
+  - id: open-model-weights
+    name: 开源 / 开放权重模型
+    description: 官方公开模型权重、模型仓库或模型下载页。
+
+  - id: proxy-network
+    name: 网络基础工具
+    description: 用于开发环境网络访问、代理管理和跨平台网络配置的工具。

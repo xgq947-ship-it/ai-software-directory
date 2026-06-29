@@ -1,0 +1,92 @@
+vendors:
+  - id: openai
+    name: OpenAI
+    homepage: https://openai.com/
+
+  - id: anthropic
+    name: Anthropic
+    homepage: https://www.anthropic.com/
+
+  - id: google
+    name: Google
+    homepage: https://ai.google/
+
+  - id: meta
+    name: Meta
+    homepage: https://ai.meta.com/
+
+  - id: deepseek
+    name: DeepSeek
+    homepage: https://www.deepseek.com/
+
+  - id: qwen
+    name: Qwen
+    homepage: https://qwen.ai/
+
+  - id: mistral
+    name: Mistral AI
+    homepage: https://mistral.ai/
+
+  - id: nousresearch
+    name: Nous Research
+    homepage: https://nousresearch.com/
+
+  - id: xai
+    name: xAI
+    homepage: https://x.ai/
+
+  - id: cursor
+    name: Cursor
+    homepage: https://cursor.com/
+
+  - id: opencode
+    name: OpenCode
+    homepage: https://opencode.ai/
+
+  - id: zai
+    name: Z.AI
+    homepage: https://z.ai/
+
+  - id: zencoder
+    name: Zencoder
+    homepage: https://zencoder.ai/
+
+  - id: zed
+    name: Zed Industries
+    homepage: https://zed.dev/
+
+  - id: ollama
+    name: Ollama
+    homepage: https://ollama.com/
+
+  - id: lmstudio
+    name: LM Studio
+    homepage: https://lmstudio.ai/
+
+  - id: janhq
+    name: Jan
+    homepage: https://www.jan.ai/
+
+  - id: anythingllm
+    name: AnythingLLM
+    homepage: https://anythingllm.com/
+
+  - id: cline
+    name: Cline
+    homepage: https://cline.bot/
+
+  - id: aider
+    name: Aider
+    homepage: https://aider.chat/
+
+  - id: github
+    name: GitHub
+    homepage: https://github.com/
+
+  - id: perplexity
+    name: Perplexity
+    homepage: https://www.perplexity.ai/
+
+  - id: clash-verge-rev
+    name: Clash Verge Rev
+    homepage: https://www.clashverge.dev/

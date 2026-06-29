@@ -1,0 +1,654 @@
+metadata:
+  name: AI Software Directory
+  description: AI 软件、编程 Agent、本地模型运行工具、开放权重模型和必要基础工具下载入口。
+  last_checked: 2026-06-29
+  policy:
+    - 只收官方入口、官方 GitHub、官方应用商店或可信官方文档。
+    - 不上传安装包，不收第三方网盘，不收破解、不收镜像站。
+    - 优先记录下载页和安装文档，不记录容易过期的安装包直链。
+
+software:
+  - id: chatgpt-desktop
+    name: ChatGPT Desktop
+    category: ai-chat-desktop
+    vendor: openai
+    status: active
+    homepage: https://chatgpt.com/
+    download_page: https://chatgpt.com/features/desktop/
+    official_source: https://help.openai.com/en/articles/9275200-downloading-the-chatgpt-macos-app
+    platforms:
+      - macOS
+      - Windows
+      - iOS
+      - Android
+    pricing: freemium
+    source_type: official
+    tags:
+      - chat
+      - desktop
+      - openai
+    last_checked: 2026-06-29
+    notes: OpenAI 官方客户端。移动端也有官方 App Store 和 Google Play 入口。
+
+  - id: claude-desktop
+    name: Claude Desktop
+    category: ai-chat-desktop
+    vendor: anthropic
+    status: active
+    homepage: https://claude.ai/
+    download_page: https://claude.ai/download
+    official_source: https://support.claude.com/en/articles/10065433-install-claude-desktop
+    platforms:
+      - macOS
+      - Windows
+      - iOS
+      - Android
+    pricing: freemium
+    source_type: official
+    tags:
+      - chat
+      - desktop
+      - anthropic
+    last_checked: 2026-06-29
+    notes: Claude 模型权重不公开下载，这里只记录官方客户端入口。
+
+  - id: gemini-desktop
+    name: Gemini for macOS
+    category: ai-chat-desktop
+    vendor: google
+    status: active
+    homepage: https://gemini.google.com/
+    download_page: https://gemini.google/mac/
+    official_source: https://gemini.google/mac/
+    platforms:
+      - macOS
+      - iOS
+      - Android
+      - Web
+    pricing: freemium
+    source_type: official
+    tags:
+      - chat
+      - desktop
+      - google
+    last_checked: 2026-06-29
+    notes: macOS 版要求以官方页面为准；其他平台走 Google 官方入口。
+
+  - id: perplexity
+    name: Perplexity
+    category: ai-chat-desktop
+    vendor: perplexity
+    status: active
+    homepage: https://www.perplexity.ai/
+    download_page: https://www.perplexity.ai/platforms
+    official_source: https://www.perplexity.ai/platforms
+    platforms:
+      - macOS
+      - Windows
+      - iOS
+      - Android
+      - Web
+    pricing: freemium
+    source_type: official
+    tags:
+      - search
+      - chat
+      - desktop
+    last_checked: 2026-06-29
+    notes: 下载入口以 Perplexity 官方 platforms 页面为准。
+
+  - id: claude-code
+    name: Claude Code
+    category: ai-coding-agent
+    vendor: anthropic
+    status: active
+    homepage: https://claude.com/product/claude-code
+    download_page: https://claude.com/product/claude-code
+    official_source: https://docs.anthropic.com/en/docs/claude-code/quickstart
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+      - VS Code
+      - JetBrains
+      - Web
+    pricing: paid
+    source_type: official
+    tags:
+      - coding-agent
+      - terminal
+      - ide
+      - anthropic
+    last_checked: 2026-06-29
+    notes: 安装方式变化较快，优先走官方产品页和官方文档，不固定写旧版安装命令。
+
+  - id: openai-codex-cli
+    name: OpenAI Codex CLI
+    category: ai-coding-agent
+    vendor: openai
+    status: active
+    homepage: https://developers.openai.com/codex/cli
+    download_page: https://developers.openai.com/codex/cli
+    official_source: https://github.com/openai/codex
+    install:
+      macos_linux: curl -fsSL https://chatgpt.com/codex/install.sh | sh
+      windows: powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"
+      npm: npm install -g @openai/codex
+      homebrew: brew install --cask codex
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+    pricing: depends-on-plan
+    source_type: official
+    tags:
+      - coding-agent
+      - terminal
+      - openai
+    last_checked: 2026-06-29
+    notes: OpenAI 官方 CLI，安装命令以 OpenAI Developers 页面为准。
+
+  - id: opencode
+    name: OpenCode
+    category: ai-coding-agent
+    vendor: opencode
+    status: active
+    homepage: https://opencode.ai/
+    download_page: https://opencode.ai/download
+    official_source: https://github.com/opencode-ai/opencode
+    install:
+      terminal: curl -fsSL https://opencode.ai/install | bash
+      npm: npm i -g opencode-ai
+      bun: bun add -g opencode-ai
+      homebrew: brew install anomalyco/tap/opencode
+      desktop: brew install --cask opencode-desktop
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+      - VS Code
+    pricing: freemium
+    source_type: official
+    tags:
+      - coding-agent
+      - open-source
+      - terminal
+      - desktop
+    last_checked: 2026-06-29
+    notes: 终端版和桌面版都从官方下载页进入。
+
+  - id: zcode
+    name: ZCode
+    category: ai-coding-agent
+    vendor: zai
+    status: active
+    homepage: https://zcode.z.ai/en
+    download_page: https://zcode.z.ai/en/docs/install
+    official_source: https://zcode.z.ai/en
+    platforms:
+      - macOS
+      - Windows
+      - Linux
+    pricing: freemium
+    source_type: official
+    tags:
+      - coding-agent
+      - z-ai
+      - glm
+    last_checked: 2026-06-29
+    notes: 用户提到的 zcode 按 Z.AI ZCode 收录；如指其他项目，后续可另建条目。
+
+  - id: hermes-agent
+    name: Hermes Agent
+    category: ai-agent-runtime
+    vendor: nousresearch
+    status: active
+    homepage: https://hermes-agent.nousresearch.com/
+    download_page: https://hermes-agent.nousresearch.com/
+    official_source: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart
+    install:
+      macos_linux_wsl_termux: curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+    platforms:
+      - macOS
+      - Windows
+      - Linux
+      - WSL2
+      - Android Termux
+    pricing: open-source
+    source_type: official
+    tags:
+      - agent
+      - runtime
+      - desktop
+      - nous-research
+    last_checked: 2026-06-29
+    notes: Nous Research 官方 Agent；桌面安装入口以官网为准。
+
+  - id: cursor
+    name: Cursor
+    category: ai-code-editor
+    vendor: cursor
+    status: active
+    homepage: https://cursor.com/
+    download_page: https://cursor.com/download
+    official_source: https://cursor.com/download
+    platforms:
+      - macOS
+      - Windows
+      - Linux
+      - Web
+    pricing: freemium
+    source_type: official
+    tags:
+      - ide
+      - coding-agent
+      - editor
+    last_checked: 2026-06-29
+    notes: 官方下载页同时覆盖 Desktop、Terminal、Web。
+
+  - id: zed
+    name: Zed
+    category: ai-code-editor
+    vendor: zed
+    status: active
+    homepage: https://zed.dev/
+    download_page: https://zed.dev/download
+    official_source: https://github.com/zed-industries/zed
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+    pricing: freemium
+    source_type: official
+    tags:
+      - editor
+      - ai
+      - rust
+    last_checked: 2026-06-29
+    notes: 官方站点和 GitHub 仓库均提供安装入口。
+
+  - id: zencoder
+    name: Zencoder
+    category: ai-coding-agent
+    vendor: zencoder
+    status: active
+    homepage: https://zencoder.ai/
+    download_page: https://zencoder.ai/download/all
+    official_source: https://zencoder.ai/download/all
+    platforms:
+      - macOS
+      - Windows
+      - VS Code
+      - JetBrains
+    pricing: paid
+    source_type: official
+    tags:
+      - coding-agent
+      - ide-plugin
+    last_checked: 2026-06-29
+    notes: 主要通过 IDE 插件和 Zenflow 桌面客户端下载。
+
+  - id: gemini-cli
+    name: Gemini CLI
+    category: ai-coding-agent
+    vendor: google
+    status: active
+    homepage: https://geminicli.com/
+    download_page: https://github.com/google-gemini/gemini-cli
+    official_source: https://docs.cloud.google.com/gemini/docs/codeassist/gemini-cli
+    install:
+      npm: npm install -g @google/gemini-cli
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+    pricing: freemium
+    source_type: official
+    tags:
+      - coding-agent
+      - terminal
+      - google
+    last_checked: 2026-06-29
+    notes: 只使用 Google 官方仓库或官方文档，避免相似名称包。
+
+  - id: cline
+    name: Cline
+    category: ai-coding-agent
+    vendor: cline
+    status: active
+    homepage: https://cline.bot/
+    download_page: https://cline.bot/
+    official_source: https://github.com/Cline/Cline
+    install:
+      cli: npm i -g cline
+      vscode: https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+      - VS Code
+      - JetBrains
+    pricing: open-source
+    source_type: official
+    tags:
+      - coding-agent
+      - vscode
+      - open-source
+    last_checked: 2026-06-29
+    notes: 官方网站、GitHub 和 VS Code Marketplace 三个入口均保留。
+
+  - id: aider
+    name: Aider
+    category: ai-coding-agent
+    vendor: aider
+    status: active
+    homepage: https://aider.chat/
+    download_page: https://aider.chat/docs/install.html
+    official_source: https://github.com/Aider-AI/aider
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+    pricing: open-source
+    source_type: official
+    tags:
+      - coding-agent
+      - terminal
+      - open-source
+    last_checked: 2026-06-29
+    notes: 安装方式以官方 install 文档为准。
+
+  - id: github-copilot
+    name: GitHub Copilot
+    category: ai-coding-agent
+    vendor: github
+    status: active
+    homepage: https://github.com/features/copilot
+    download_page: https://docs.github.com/copilot/managing-copilot/configure-personal-settings/installing-the-github-copilot-extension-in-your-environment
+    official_source: https://docs.github.com/copilot/managing-copilot/configure-personal-settings/installing-the-github-copilot-extension-in-your-environment
+    platforms:
+      - VS Code
+      - Visual Studio
+      - JetBrains
+      - Neovim
+      - GitHub
+    pricing: freemium
+    source_type: official
+    tags:
+      - coding-agent
+      - ide-plugin
+      - github
+    last_checked: 2026-06-29
+    notes: 官方文档包含不同 IDE 的安装入口。
+
+  - id: ollama
+    name: Ollama
+    category: local-llm-runtime
+    vendor: ollama
+    status: active
+    homepage: https://ollama.com/
+    download_page: https://ollama.com/download
+    official_source: https://ollama.com/download
+    install:
+      linux: curl -fsSL https://ollama.com/install.sh | sh
+      windows_powershell: irm https://ollama.com/install.ps1 | iex
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+    pricing: free
+    source_type: official
+    tags:
+      - local-llm
+      - runtime
+      - model-manager
+    last_checked: 2026-06-29
+    notes: 本地运行 Llama、Qwen、Gemma、DeepSeek 等模型的常用入口。
+
+  - id: lm-studio
+    name: LM Studio
+    category: local-llm-runtime
+    vendor: lmstudio
+    status: active
+    homepage: https://lmstudio.ai/
+    download_page: https://lmstudio.ai/download
+    official_source: https://lmstudio.ai/docs/app
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+    pricing: free
+    source_type: official
+    tags:
+      - local-llm
+      - desktop
+      - gui
+    last_checked: 2026-06-29
+    notes: 图形化本地模型下载、运行和服务工具。
+
+  - id: jan
+    name: Jan
+    category: local-llm-runtime
+    vendor: janhq
+    status: active
+    homepage: https://www.jan.ai/
+    download_page: https://www.jan.ai/download
+    official_source: https://github.com/janhq/jan
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+    pricing: open-source
+    source_type: official
+    tags:
+      - local-llm
+      - desktop
+      - open-source
+    last_checked: 2026-06-29
+    notes: 开源 ChatGPT 替代客户端，支持本地模型和云模型。
+
+  - id: anythingllm
+    name: AnythingLLM
+    category: local-llm-runtime
+    vendor: anythingllm
+    status: active
+    homepage: https://anythingllm.com/
+    download_page: https://anythingllm.com/desktop
+    official_source: https://docs.anythingllm.com/installation-desktop/overview
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+      - Docker
+    pricing: freemium
+    source_type: official
+    tags:
+      - local-llm
+      - rag
+      - desktop
+    last_checked: 2026-06-29
+    notes: 桌面版适合本地 RAG、文档问答和轻量 Agent。
+
+  - id: openai-gpt-oss
+    name: OpenAI gpt-oss
+    category: open-model-weights
+    vendor: openai
+    status: active
+    homepage: https://github.com/openai/gpt-oss
+    download_page: https://huggingface.co/openai/gpt-oss-120b
+    official_source: https://github.com/openai/gpt-oss
+    platforms:
+      - Hugging Face
+      - Local inference
+    pricing: open-weights
+    source_type: official
+    tags:
+      - model-weights
+      - openai
+      - reasoning
+    last_checked: 2026-06-29
+    notes: OpenAI 官方开放权重模型；下载命令以 GitHub/Hugging Face 模型卡为准。
+
+  - id: meta-llama
+    name: Meta Llama
+    category: open-model-weights
+    vendor: meta
+    status: active
+    homepage: https://www.llama.com/
+    download_page: https://developer.meta.com/ai/llama-downloads/
+    official_source: https://huggingface.co/meta-llama
+    platforms:
+      - Meta
+      - Hugging Face
+    pricing: license-gated
+    source_type: official
+    tags:
+      - model-weights
+      - llama
+      - meta
+    last_checked: 2026-06-29
+    notes: 部分权重需要接受 Meta 许可证条款。
+
+  - id: deepseek
+    name: DeepSeek Models
+    category: open-model-weights
+    vendor: deepseek
+    status: active
+    homepage: https://www.deepseek.com/
+    download_page: https://huggingface.co/deepseek-ai
+    official_source: https://huggingface.co/deepseek-ai/DeepSeek-R1
+    platforms:
+      - Hugging Face
+      - GitHub
+    pricing: open-weights
+    source_type: official
+    tags:
+      - model-weights
+      - reasoning
+      - deepseek
+    last_checked: 2026-06-29
+    notes: DeepSeek-R1、V3 等模型入口以官方 Hugging Face 组织为准。
+
+  - id: qwen
+    name: Qwen Models
+    category: open-model-weights
+    vendor: qwen
+    status: active
+    homepage: https://qwen.ai/
+    download_page: https://huggingface.co/Qwen
+    official_source: https://github.com/QwenLM/Qwen3.6
+    mirrors:
+      - https://www.modelscope.cn/organization/qwen
+    platforms:
+      - Hugging Face
+      - ModelScope
+      - GitHub
+    pricing: open-weights
+    source_type: official
+    tags:
+      - model-weights
+      - qwen
+      - alibaba
+    last_checked: 2026-06-29
+    notes: 国内网络环境可优先看 ModelScope；海外环境优先 Hugging Face。
+
+  - id: google-gemma
+    name: Google Gemma
+    category: open-model-weights
+    vendor: google
+    status: active
+    homepage: https://ai.google.dev/gemma
+    download_page: https://www.kaggle.com/models/google/gemma
+    official_source: https://huggingface.co/google
+    platforms:
+      - Kaggle
+      - Hugging Face
+    pricing: open-weights
+    source_type: official
+    tags:
+      - model-weights
+      - gemma
+      - google
+    last_checked: 2026-06-29
+    notes: Google 官方模型页在 Kaggle 和 Hugging Face 均有分发。
+
+  - id: mistral-models
+    name: Mistral Models
+    category: open-model-weights
+    vendor: mistral
+    status: active
+    homepage: https://mistral.ai/
+    download_page: https://huggingface.co/mistralai
+    official_source: https://docs.mistral.ai/models/overview
+    platforms:
+      - Hugging Face
+      - Mistral Docs
+    pricing: mixed
+    source_type: official
+    tags:
+      - model-weights
+      - mistral
+      - open-weights
+    last_checked: 2026-06-29
+    notes: 不同模型授权不同，下载前看具体模型卡。
+
+  - id: nous-hermes-models
+    name: Nous Hermes Models
+    category: open-model-weights
+    vendor: nousresearch
+    status: active
+    homepage: https://nousresearch.com/
+    download_page: https://huggingface.co/NousResearch/Hermes-4.3-36B
+    official_source: https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B
+    platforms:
+      - Hugging Face
+    pricing: open-weights
+    source_type: official
+    tags:
+      - model-weights
+      - hermes
+      - nous-research
+    last_checked: 2026-06-29
+    notes: 这里收录的是 Hermes 模型权重；Hermes Agent 另有单独条目。
+
+  - id: xai-grok
+    name: xAI Grok Open Weights
+    category: open-model-weights
+    vendor: xai
+    status: active
+    homepage: https://x.ai/
+    download_page: https://huggingface.co/xai-org/grok-2
+    official_source: https://github.com/xai-org/grok-1
+    platforms:
+      - Hugging Face
+      - GitHub
+    pricing: open-weights
+    source_type: official
+    tags:
+      - model-weights
+      - grok
+      - xai
+    last_checked: 2026-06-29
+    notes: 权重体积大，下载前先确认存储和推理环境。
+
+  - id: clash-verge-rev
+    name: Clash Verge Rev
+    category: proxy-network
+    vendor: clash-verge-rev
+    status: active
+    homepage: https://www.clashverge.dev/
+    download_page: https://github.com/clash-verge-rev/clash-verge-rev/releases
+    official_source: https://www.clashverge.dev/install.html
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+    pricing: open-source
+    source_type: official
+    tags:
+      - proxy
+      - network
+      - clash
+      - mihomo
+    last_checked: 2026-06-29
+    notes: 非 AI 软件，但常用于 AI 开发网络环境。官方文档声明只通过 GitHub Release 发布。
