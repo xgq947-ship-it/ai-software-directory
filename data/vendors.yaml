@@ -71,6 +71,10 @@ vendors:
     name: Clash Verge Rev
     homepage: https://www.clashverge.dev/
 
+  - id: tailscale
+    name: Tailscale
+    homepage: https://tailscale.com/
+
   - id: netease-uuyc
     name: 网易 UU 远程
     homepage: https://uuyc.163.com/

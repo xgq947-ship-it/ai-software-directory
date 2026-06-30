@@ -27,6 +27,7 @@
 | cmux | 开发终端 | https://cmux.com/ | 面向 AI Coding Agent 的 macOS 终端 |
 | CC Switch | AI CLI 管理 | https://ccswitch.io/zh/ | Claude Code、Codex、OpenCode 等 CLI 统一管理 |
 | Clash Verge Rev | 网络基础工具 | https://github.com/clash-verge-rev/clash-verge-rev/releases | 只用官方 GitHub Release |
+| Tailscale | 网络基础工具 | https://tailscale.com/download | 跨平台组网和远程访问工具，官方页覆盖 macOS/iOS/Windows/Linux/Android |
 
 ## 目录结构
 

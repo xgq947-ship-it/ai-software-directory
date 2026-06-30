@@ -491,6 +491,33 @@ software:
     last_checked: 2026-06-29
     notes: 非 AI 软件，但常用于 AI 开发网络环境。官方文档声明只通过 GitHub Release 发布。
 
+  - id: tailscale
+    name: Tailscale
+    category: proxy-network
+    vendor: tailscale
+    status: active
+    homepage: https://tailscale.com/
+    download_page: https://tailscale.com/download
+    official_source: https://tailscale.com/download
+    install:
+      linux_install_script: curl -fsSL https://tailscale.com/install.sh | sh
+    platforms:
+      - macOS
+      - iOS
+      - Windows
+      - Linux
+      - Android
+    pricing: freemium
+    source_type: official
+    tags:
+      - vpn
+      - wireguard
+      - remote-access
+      - network
+      - zero-trust
+    last_checked: 2026-06-30
+    notes: 官方下载页覆盖 macOS、iOS、Windows、Linux 和 Android；Linux 可用官方一键安装脚本。
+
   - id: uu-remote
     name: UU 远程
     category: remote-access
