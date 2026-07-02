@@ -224,6 +224,42 @@ software:
     last_checked: 2026-06-29
     notes: Nous Research 官方 Agent；桌面安装入口以官网为准。
 
+  - id: hermes-feishu-streaming-card
+    name: Hermes Feishu Streaming Card
+    category: ai-agent-runtime
+    vendor: baileyh8
+    status: active
+    homepage: https://github.com/baileyh8/hermes-feishu-streaming-card
+    download_page: https://github.com/baileyh8/hermes-feishu-streaming-card/releases
+    official_source: https://github.com/baileyh8/hermes-feishu-streaming-card/blob/main/README-install.md
+    install:
+      macos_linux: curl -fsSL https://raw.githubusercontent.com/baileyh8/hermes-feishu-streaming-card/main/install.sh | bash
+      windows_powershell: irm https://raw.githubusercontent.com/baileyh8/hermes-feishu-streaming-card/main/install.ps1 | iex
+      release_page_latest: https://github.com/baileyh8/hermes-feishu-streaming-card/releases/latest
+      macos_release_latest_observed: https://github.com/baileyh8/hermes-feishu-streaming-card/releases/download/v3.8.4/hermes-feishu-card-v3.8.4-macos.tar.gz
+      linux_release_latest_observed: https://github.com/baileyh8/hermes-feishu-streaming-card/releases/download/v3.8.4/hermes-feishu-card-v3.8.4-linux.tar.gz
+      windows_release_latest_observed: https://github.com/baileyh8/hermes-feishu-streaming-card/releases/download/v3.8.4/hermes-feishu-card-v3.8.4-windows.zip
+    platforms:
+      - macOS
+      - Linux
+      - Windows
+      - Docker
+    requirements:
+      - Hermes Agent
+      - Python 3.9+
+      - Feishu/Lark app credentials
+    pricing: open-source
+    source_type: official
+    tags:
+      - hermes-agent
+      - feishu
+      - lark
+      - streaming-card
+      - sidecar
+      - python
+    last_checked: 2026-07-02
+    notes: Hermes Gateway 的飞书/Lark 流式卡片 sidecar 插件；官方说明支持一键安装、Release 安装包、doctor 诊断和 start/status/stop 管理。
+
   - id: cursor
     name: Cursor
     category: ai-code-editor

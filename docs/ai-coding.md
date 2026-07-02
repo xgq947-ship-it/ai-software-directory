@@ -9,6 +9,7 @@
 | OpenCode | https://opencode.ai/download | 开源终端 / 桌面 AI 编程 Agent |
 | ZCode | https://zcode.z.ai/en | Z.AI / GLM 生态编程 Agent |
 | Hermes Agent | https://hermes-agent.nousresearch.com/ | 长任务、工具调用、Agent Runtime |
+| Hermes Feishu Streaming Card | https://github.com/baileyh8/hermes-feishu-streaming-card/releases | Hermes Gateway 飞书/Lark 流式卡片插件 |
 | Cursor | https://cursor.com/download | AI IDE |
 | Zed | https://zed.dev/download | 高性能编辑器 + AI Agent |
 | Zencoder | https://zencoder.ai/download/all | IDE 插件和 AI 编程平台 |

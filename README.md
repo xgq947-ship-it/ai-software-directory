@@ -15,6 +15,7 @@
 | OpenCode | AI 编程 Agent | https://opencode.ai/download | 开源 AI 编程 Agent |
 | ZCode | AI 编程 Agent | https://zcode.z.ai/en | Z.AI 官方工具 |
 | Hermes Agent | AI Agent Runtime | https://hermes-agent.nousresearch.com/ | Nous Research 官方 Agent |
+| Hermes Feishu Streaming Card | AI Agent Runtime | https://github.com/baileyh8/hermes-feishu-streaming-card/releases | Hermes Gateway 飞书/Lark 流式卡片插件 |
 | Cursor | AI IDE | https://cursor.com/download | AI 代码编辑器 |
 | Zed | AI IDE | https://zed.dev/download | 高性能代码编辑器，支持 AI Agent |
 | Ollama | 本地模型运行 | https://ollama.com/download | 本地运行大模型 |
