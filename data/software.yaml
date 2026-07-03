@@ -1,7 +1,7 @@
 metadata:
   name: AI Software Directory
   description: AI 软件、编程 Agent、本地模型运行工具、开放权重模型和必要基础工具下载入口。
-  last_checked: 2026-06-29
+  last_checked: 2026-07-03
   policy:
     - 只收官方入口、官方 GitHub、官方应用商店或可信官方文档。
     - 不上传安装包，不收第三方网盘，不收破解、不收镜像站。
@@ -725,7 +725,7 @@ software:
     official_source: https://github.com/vorssaint/vorssaint-utils
     install:
       homebrew_cask: brew install --cask vorssaint/tap/vorssaint
-      dmg_latest_observed: https://github.com/vorssaint/vorssaint-utils/releases/download/v3.1.4/Vorssaint-3.1.4.dmg
+      dmg_latest_observed: https://github.com/vorssaint/vorssaint-utils/releases/download/v3.1.6/Vorssaint-3.1.6.dmg
       release_page_latest: https://github.com/vorssaint/vorssaint-utils/releases/latest
     platforms:
       - macOS
@@ -744,5 +744,5 @@ software:
       - window-manager
       - uninstaller
       - keep-awake
-    last_checked: 2026-06-29
-    notes: 官方 README 推荐 Homebrew Cask；最新 Release 同时提供 DMG。要求 Apple Silicon 和 macOS 14+。
+    last_checked: 2026-07-03
+    notes: 官方 README 推荐 Homebrew Cask；最新 Release 同时提供已签名并经 Apple notarized 的 DMG。要求 Apple Silicon 和 macOS 14+。
